@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-nolog"
+  description: "test-nolog"
+  annotations:
+    github.com/project-slug: ravargs/sample-test
+    backstage.io/techdocs-ref: url:https://github.com/ravargs/sample-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "ravargs"

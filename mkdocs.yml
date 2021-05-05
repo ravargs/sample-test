@@ -1,0 +1,8 @@
+site_name: "test-nolog"
+site_description: "test-nolog"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
